@@ -5,9 +5,11 @@ Description:
   input to generate BPSK modulated signal (m).
 
 Syntax:
+
   m = bpsk_modulator(fc,Rb,data,fig)
 
 Inputs:
+
   fc: Center Frequency in Hertz
   
   Rb: Bitrate in bps
@@ -17,4 +19,5 @@ Inputs:
   fig: Enter "y" or "Y" to plot results.
 
 Outputs:
+
   m: BPSK modulated signal
