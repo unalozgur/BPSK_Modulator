@@ -9,8 +9,12 @@ Syntax:
 
 Inputs:
   fc: Center Frequency in Hertz
+  
   Rb: Bitrate in bps
+  
   data: Binary data to be transmitted (nx1 or 1xn vector)
+  
   fig: Enter "y" or "Y" to plot results.
+
 Outputs:
   m: BPSK modulated signal
